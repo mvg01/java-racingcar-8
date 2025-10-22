@@ -69,4 +69,11 @@ public class OutputView {
             }
         }
     }
+
+    /**
+     * 에러 메시지를 출력합니다.
+     */
+    public void printError(String error) {
+        System.out.println("[ERROR] : "+ error);
+    }
 }

@@ -47,6 +47,7 @@ public class RacingCarController {
             outputView.printGameEnd(cars.getCars());
 
         } catch(IllegalArgumentException e) {
+            outputView.printError(e.getMessage());
             throw e;
         }
     }
