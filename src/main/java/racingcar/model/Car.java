@@ -1,12 +1,14 @@
 package racingcar.model;
 
+import static camp.nextstep.edu.missionutils.Randoms.pickNumberInRange;
+
 public class Car {
     private String name;
-    private int distance;
+    private int position;
 
     public Car(String name) {
         this.name = name;
-        distance = 0;
+        position = 0;
     }
 
     public String getName() {
@@ -14,10 +16,12 @@ public class Car {
     }
 
     public int getDistance() {
-        return distance;
+        return position;
     }
 
-    public void setDistance(int plusDistance) {
-        distance += plusDistance;
+    public void move() {
+        if(pickNumberInRange(0,9) >= 4) {
+            this.position += 1;
+        }
     }
 }

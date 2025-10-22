@@ -33,25 +33,25 @@
 - [ ] 출력 형식 정확히 일치해야 함
 
 ## 💻 프로그래밍 요구
-- [ ] 진입점 `Application.main()` 사용
+- [x] 진입점 `Application.main()` 사용
 - [ ] `build.gradle` 수정 금지, 외부 라이브러리 미사용
 - [ ] `System.exit()` 호출 금지
-- [ ] 파일/패키지명 변경 금지
+- [x] 파일/패키지명 변경 금지
 - [ ] 자바 코드 컨벤션 및 네이밍 규칙 준수 (Java Style Guide 기반)
 - [ ] 들여쓰기 depth 2 이내 유지
 - [ ] 메서드는 한 가지 일만 하도록 분리
 - [ ] 삼항 연산자 사용 금지
 
 ## 🧩 객체 설계 요구
-- [ ] `Car` 클래스 사용 — `name`, `position` 필드 유지
-- [ ] `setPosition()` 사용 없이 동작 구현
+- [x] `Car` 클래스 사용 — `name`, `position` 필드 유지
+- [x] `setPosition()` 사용 없이 동작 구현
 - [ ] `Cars` 일급 컬렉션 형태로 여러 자동차 관리
 - [ ] 캡슐화 및 책임 분리 원칙 적용
 
 ## 📚 라이브러리 사용
 - [x] 입력: `camp.nextstep.edu.missionutils.Console.readLine()`
-- [ ] 랜덤값: `camp.nextstep.edu.missionutils.Randoms.pickNumberInRange(0, 9)`
-- [ ] `Random`, `Scanner` 직접 사용 금지
+- [x] 랜덤값: `camp.nextstep.edu.missionutils.Randoms.pickNumberInRange(0, 9)`
+- [x] `Random`, `Scanner` 직접 사용 금지
 
 ## 🧪 테스트 실행
 - [ ] Windows: `gradlew.bat clean test` 실행
