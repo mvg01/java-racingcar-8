@@ -24,4 +24,13 @@ public class Car {
             this.position += 1;
         }
     }
+
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append(name).append(" : ");
+        for (int i = 0; i < position; i++) {
+            sb.append("-");
+        }
+        return sb.toString();
+    }
 }
