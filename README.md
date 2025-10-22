@@ -49,7 +49,7 @@
 - [ ] 캡슐화 및 책임 분리 원칙 적용
 
 ## 📚 라이브러리 사용
-- [ ] 입력: `camp.nextstep.edu.missionutils.Console.readLine()`
+- [x] 입력: `camp.nextstep.edu.missionutils.Console.readLine()`
 - [ ] 랜덤값: `camp.nextstep.edu.missionutils.Randoms.pickNumberInRange(0, 9)`
 - [ ] `Random`, `Scanner` 직접 사용 금지
 
