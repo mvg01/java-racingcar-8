@@ -3,7 +3,7 @@
 ## ✅ 실행 환경 확인
 - [x] Java 버전 21로 실행 확인 (`java -version → 21 출력`)
 - [x] IntelliJ/Gradle JVM 모두 21로 설정 (`.\gradlew.bat --version`)
-- [ ] `.\gradlew.bat clean test` 실행 시 **BUILD SUCCESSFUL** 확인
+- [x] `.\gradlew.bat clean test` 실행 시 **BUILD SUCCESSFUL** 확인
 
 ## 📦 저장소 준비
 - [x] 미션 저장소 포크 및 로컬 클론 완료
@@ -21,7 +21,7 @@
 - [x] 전진 결과 출력 형식 준수 (`pobi : ---`)
 - [x] n회 시도 후 우승자 출력 (`최종 우승자 : pobi, jun`)
 - [x] 복수 우승자 처리 시 쉼표로 구분
-- [ ] 잘못된 입력 시 `IllegalArgumentException` 발생 및 프로그램 종료
+- [x] 잘못된 입력 시 `IllegalArgumentException` 발생 및 프로그램 종료
 
 ## 💬 입출력 요구
 - [x] 입력 1: 자동차 이름 목록 (예: `pobi,woni,jun`)
@@ -29,23 +29,23 @@
 - [x] 출력 1: 각 회차별 자동차 전진 결과 표시
 - [x] 출력 2: 최종 우승자 안내 (`최종 우승자 : pobi, jun`)
 - [ ] 예외 발생 시 `[ERROR]`로 시작하는 메시지 출력
-- [ ] 출력 형식 정확히 일치해야 함
+- [x] 출력 형식 정확히 일치해야 함
 
 ## 💻 프로그래밍 요구
 - [x] 진입점 `Application.main()` 사용
 - [x] `build.gradle` 수정 금지, 외부 라이브러리 미사용
 - [x] `System.exit()` 호출 금지
 - [x] 파일/패키지명 변경 금지
-- [ ] 자바 코드 컨벤션 및 네이밍 규칙 준수 (Java Style Guide 기반)
+- [x] 자바 코드 컨벤션 및 네이밍 규칙 준수 (Java Style Guide 기반)
 - [ ] 들여쓰기 depth 2 이내 유지
-- [ ] 메서드는 한 가지 일만 하도록 분리
-- [ ] 삼항 연산자 사용 금지
+- [x] 메서드는 한 가지 일만 하도록 분리
+- [x] 삼항 연산자 사용 금지
 
 ## 🧩 객체 설계 요구
 - [x] `Car` 클래스 사용 — `name`, `position` 필드 유지
 - [x] `setPosition()` 사용 없이 동작 구현
 - [x] `Cars` 일급 컬렉션 형태로 여러 자동차 관리
-- [ ] 캡슐화 및 책임 분리 원칙 적용
+- [x] 캡슐화 및 책임 분리 원칙 적용
 
 ## 📚 라이브러리 사용
 - [x] 입력: `camp.nextstep.edu.missionutils.Console.readLine()`
